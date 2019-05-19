@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="200.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" app:srcCompat="@mipmap/algeriapluslogo" />
+    <View android:background="@drawable/deg" android:layout_width="fill_parent" android:layout_height="200.0dip" android:alpha="0.6" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffff00" android:id="@id/test" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="30.0dip" android:text="TextView" android:layout_alignBottom="@id/imageView" android:layout_alignParentLeft="true" />
+</RelativeLayout>

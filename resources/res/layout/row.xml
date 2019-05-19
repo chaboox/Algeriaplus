@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/teal" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="200dp">
+        <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="200dp" android:scaleType="fitXY"/>
+        <View android:background="@drawable/deg" android:layout_width="match_parent" android:layout_height="200dp" android:alpha="0.9"/>
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progress_bar_recent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle"/>
+    <RelativeLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="55dp">
+        <TextView android:textSize="15dp" android:textColor="#fff" android:gravity="center" android:id="@+id/tv_date" android:background="@drawable/rec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginRight="5dp" android:text="date" android:layout_centerVertical="true" android:alpha="0.7"/>
+    </RelativeLayout>
+    <TextView android:textSize="17sp" android:textColor="#fff" android:layout_gravity="bottom" android:id="@+id/tv_title_rendered" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:text="title_rendered"/>
+</FrameLayout>

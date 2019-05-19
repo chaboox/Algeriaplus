@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/slide" android:layout_width="match_parent" android:layout_height="200dp">
+        <ImageView android:id="@+id/invIma" android:layout_width="match_parent" android:layout_height="180dp"/>
+        <android.support.v4.view.ViewPager android:id="@+id/viewPager" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="200dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/SliderDots" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/invIma"/>
+    </RelativeLayout>
+    <ListView android:id="@+id/recent_list_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="4dp" android:layout_marginTop="0dp" android:layout_marginRight="4dp" android:layout_below="@+id/slide"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progress_bar_recent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyle"/>
+</RelativeLayout>

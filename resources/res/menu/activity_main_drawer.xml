@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:id="@+id/haut" android:checkableBehavior="single"/>
+    <group android:id="@+id/categoriegroupe" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_home" android:id="@+id/new_news" android:title="أخر الاخبار"/>
+        <item android:icon="@drawable/ic_query_builder_black_24dp" android:id="@+id/adath" android:title="الحدث"/>
+        <item android:icon="@drawable/ic_fitness_center_black_24dp" android:id="@+id/sport" android:title="رياضة"/>
+        <item android:icon="@drawable/ic_phonelink_black_24dp" android:id="@+id/techno" android:title="علوم و تكنولوجيا"/>
+        <item android:icon="@drawable/ic_business_black_24dp" android:id="@+id/etude" android:title="تعليم و توظيف"/>
+        <item android:icon="@drawable/ic_restaurant_black_24dp" android:id="@+id/sante" android:title="صحة و غذاء"/>
+        <item android:icon="@drawable/ic_euro_symbol_black_24dp" android:id="@+id/managment" android:title="ريادة الاعمال"/>
+        <item android:icon="@drawable/ic_public_black_24dp" android:id="@+id/other" android:title="منوعات"/>
+    </group>
+    <group android:id="@+id/categoriegroupe2" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_contact_us" android:id="@+id/contact" android:title="اتصل بنا"/>
+        <item android:icon="@drawable/fb" android:id="@+id/facebook" android:title="فيس بوك"/>
+        <item android:icon="@drawable/icon" android:id="@+id/instagram" android:title="انستغرام"/>
+        <item android:icon="@drawable/youtube" android:id="@+id/youtube" android:title="يوتوب"/>
+    </group>
+</menu>

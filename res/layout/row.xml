@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/teal" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="200.0dip">
+        <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="200.0dip" android:scaleType="fitXY" />
+        <View android:background="@drawable/deg" android:layout_width="fill_parent" android:layout_height="200.0dip" android:alpha="0.9" />
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar_recent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+    <RelativeLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="55.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_date" android:background="@drawable/rec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" android:text="date" android:layout_centerVertical="true" android:alpha="0.7" />
+    </RelativeLayout>
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:layout_gravity="bottom" android:id="@id/tv_title_rendered" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:text="title_rendered" />
+</FrameLayout>

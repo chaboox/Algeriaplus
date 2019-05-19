@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/activity_about_the_app" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@+id/appBarLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/toolbar"/>
+        </android.support.design.widget.AppBarLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/llVersion" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:layout_below="@+id/appBarLayout">
+            <TextView android:textSize="20sp" android:textColor="@color/colorAccent" android:id="@+id/version" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Version"/>
+            <TextView android:textSize="18sp" android:textColor="@color/black" android:id="@+id/version_number" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="1.0"/>
+            <View android:background="@color/black" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/llLibraries" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:layout_below="@+id/llVersion">
+            <TextView android:textSize="20sp" android:textColor="@color/colorAccent" android:id="@+id/open_source_libraries" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Open source libraries"/>
+            <TextView android:textSize="18sp" android:textColor="@color/black" android:id="@+id/volley" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="volley"/>
+            <TextView android:textSize="18sp" android:textColor="@color/black" android:id="@+id/gson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="gson"/>
+            <TextView android:textSize="18sp" android:textColor="@color/black" android:id="@+id/clans_fab" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="clans_fab"/>
+            <View android:background="@color/black" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/llCopyrights" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:layout_below="@+id/llLibraries">
+            <TextView android:textSize="20sp" android:textColor="@color/colorAccent" android:id="@+id/app_copyrights" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="App copyrights"/>
+            <TextView android:textSize="18sp" android:textColor="@color/black" android:id="@+id/copyright" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Gmonetix copyright©2017"/>
+            <TextView android:textSize="18sp" android:textColor="@color/black" android:id="@+id/desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="All Logos & Trademark belongs to their respective owners"/>
+            <View android:background="@color/black" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

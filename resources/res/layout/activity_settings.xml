@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/activity_settings" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@+id/appBarLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar"/>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/llTermsAndConditions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_below="@+id/appBarLayout">
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_terms_and_conditions" android:scaleType="fitXY"/>
+        <TextView android:textSize="20sp" android:textColor="@color/black" android:layout_gravity="center" android:id="@+id/terms_and_conditions_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="Terms and Conditions"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/llPrivacyPolicy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_below="@+id/llTermsAndConditions">
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_privacy_policy" android:scaleType="fitXY"/>
+        <TextView android:textSize="20sp" android:textColor="@color/black" android:layout_gravity="center" android:id="@+id/privacy_policy_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="Privacy policy"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/llReportAnIssue" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_below="@+id/llPrivacyPolicy">
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_report_an_issue" android:scaleType="fitXY"/>
+        <TextView android:textSize="20sp" android:textColor="@color/black" android:layout_gravity="center" android:id="@+id/report_an_issue_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="Report an issue"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/llAboutTheApp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_below="@+id/llReportAnIssue">
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_about_the_app" android:scaleType="fitXY"/>
+        <TextView android:textSize="20sp" android:textColor="@color/black" android:layout_gravity="center" android:id="@+id/about_the_app_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="About the app"/>
+    </LinearLayout>
+</RelativeLayout>

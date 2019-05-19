@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/rounded_corner_catgeories_row" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_margin="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0sp" android:id="@id/categories_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="CATEGORY_NAME" />
+    <TextView android:textSize="20.0sp" android:id="@id/categories_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="DESCRIPTION" />
+</LinearLayout>

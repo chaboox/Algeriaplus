@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/teal" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="200dp">
+        <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="200dp" android:scaleType="fitXY"/>
+        <View android:background="@drawable/deg" android:layout_width="match_parent" android:layout_height="200dp" android:alpha="0.5"/>
+    </FrameLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="55dp">
+        <ImageView android:id="@+id/date_iv" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:src="@drawable/ic_date" android:layout_centerVertical="true"/>
+        <TextView android:textSize="20dp" android:gravity="center" android:id="@+id/tv_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="15dp" android:text="date" android:layout_toRightOf="@+id/date_iv" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="17sp" android:textColor="#ffffff" android:layout_gravity="bottom" android:id="@+id/tv_title_rendered" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="title_rendered"/>
+</FrameLayout>
